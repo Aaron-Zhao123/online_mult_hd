@@ -1,0 +1,219 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0
+vcomputation_control_hd
+!i10b 1
+!s100 TZGS_m8^a057QWLiVJ]`G3
+IXh:k=EVAEj52]:glORUBH3
+Z1 VzcLbjfg;Yj1S]fjE7k=WJ3
+Z2 dC:\Aaron_documents\Newton_method_hd\Online_mult_hd
+w1444671500
+Z3 8C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/computation_control_hd.v
+Z4 FC:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/computation_control_hd.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1444671504.347000
+Z7 !s107 C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/testbench_mult_hd.v|C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/single_clk_ram_4bit.v|C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/generate_CA_reg_hd.v|C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/counter.v|C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/computation_control_hd.v|C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/Multiplier_hd.v|
+Z8 !s90 -reportprogress|300|-work|work|-O0|C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/Multiplier_hd.v|C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/computation_control_hd.v|C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/counter.v|C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/generate_CA_reg_hd.v|C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/single_clk_ram_4bit.v|C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/testbench_mult_hd.v|
+!s101 -O0
+Z9 o-work work -O0
+vcounter
+!i10b 1
+Z10 !s100 ]dT:f@D36A<ZVc^[oRjiO1
+Z11 I=3[EHF6ng2PYF7BOAS5oN2
+Z12 V`To]YdI=k0oSOD6ED:[dH2
+R2
+Z13 w1444577598
+Z14 8C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/counter.v
+Z15 FC:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/counter.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+vD_flipflop
+Z16 !s100 EY=YzPYP34RoGB[2]45kf2
+Z17 Ib:=NEYN=]JbgP<aClAZf@3
+Z18 VzkabIJTQAgIjd``Z:0Z0Q2
+R2
+Z19 w1444233190
+Z20 8C:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/D_flipflop.v
+Z21 FC:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/D_flipflop.v
+L0 1
+R5
+r1
+31
+Z22 !s108 1444577033.243000
+Z23 !s107 C:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/testbench.v|C:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/full_adder.v|C:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/Online_adder_hd.v|C:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/On_line_adder_test2.v|C:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/D_flipflop.v|
+Z24 !s90 -reportprogress|300|-work|work|-O0|C:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/D_flipflop.v|C:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/On_line_adder_test2.v|C:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/Online_adder_hd.v|C:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/full_adder.v|C:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/testbench.v|
+R9
+Z25 n@d_flipflop
+!i10b 1
+!s85 0
+!s101 -O0
+vfull_adder
+Z26 !s100 43PdeP_XzT?4i6hVz0MLY0
+Z27 I[B6f]cobiF8Ld02BgmFb13
+Z28 VY<ik;mLW>j9l4DLC>lZ8;0
+R2
+Z29 w1435575119
+Z30 8C:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/full_adder.v
+Z31 FC:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/full_adder.v
+L0 1
+R5
+r1
+31
+R22
+R23
+R24
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vgenerate_CA_reg_hd
+!i10b 1
+Z32 !s100 6@CF8Rk]Gl^0:K3IFVhIH3
+Z33 IKXI4KVmkzHH`UjMbCUO^k2
+Z34 V4g<SZ?RY>kFB;1J=ifW3j3
+R2
+Z35 w1444482428
+Z36 8C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/generate_CA_reg_hd.v
+Z37 FC:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/generate_CA_reg_hd.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+Z38 ngenerate_@c@a_reg_hd
+vMultiplier_hd
+!i10b 1
+Z39 !s100 3E`TKFYnXRVXSSPX?`@<b3
+Z40 IOaleD^hV:jOdTDmLB;OcI2
+Z41 VP8k;eH7=9diadW]C_1Vk]0
+R2
+Z42 w1444670248
+Z43 8C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/Multiplier_hd.v
+Z44 FC:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/Multiplier_hd.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+Z45 n@multiplier_hd
+vOn_line_adder_test2
+Z46 !s100 JQVH^Y;XPaC9[I4MbhmMC0
+Z47 I<VlInjY[lmX^lID<l8Fg_1
+Z48 Vm<]M90N^WHM@]1JPMmJl:2
+R2
+Z49 w1441711560
+Z50 8C:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/On_line_adder_test2.v
+Z51 FC:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/On_line_adder_test2.v
+L0 1
+R5
+r1
+31
+R22
+R23
+R24
+R9
+Z52 n@on_line_adder_test2
+!i10b 1
+!s85 0
+!s101 -O0
+vOnline_adder_hd
+Z53 !s100 S6H6<SN<`XRnD`LO[XWkW1
+Z54 I;aJ>@GiInA:M5Rml>[:ZG0
+Z55 V][A?W:zOTf9jC`a^jYn3P0
+R2
+Z56 w1444510476
+Z57 8C:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/Online_adder_hd.v
+Z58 FC:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/Online_adder_hd.v
+L0 1
+R5
+r1
+31
+R22
+R23
+R24
+R9
+Z59 n@online_adder_hd
+!i10b 1
+!s85 0
+!s101 -O0
+vsingle_clk_ram_4bit
+!i10b 1
+Z60 !s100 2?8OaK7fm49G5AA_G5AN:2
+Z61 I:`:O6eSVeHiZ]mX57CidS1
+Z62 VALhE68_]c4mai@LLd5RT10
+R2
+Z63 w1444324423
+Z64 8C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/single_clk_ram_4bit.v
+Z65 FC:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/single_clk_ram_4bit.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+vtestbench
+Z66 !s100 4YIdoSheaiIK[0fC=3SYF3
+Z67 IohQmzJNjd7IeM@QjERZ7i1
+Z68 VhGfW:390DM[oDMzegDH9`2
+R2
+Z69 w1444510866
+Z70 8C:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/testbench.v
+Z71 FC:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/testbench.v
+L0 2
+R5
+r1
+31
+R22
+R23
+R24
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vtestbench_mult_hd
+!i10b 1
+Z72 !s100 =h`dLXEQgT;N10<9eHPjE3
+Z73 Io3@c^DJ_m6WBZ41^b@8g42
+Z74 Vf4E>l[FeDX0DA:2z25Cji2
+R2
+Z75 w1444670950
+Z76 8C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/testbench_mult_hd.v
+Z77 FC:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/testbench_mult_hd.v
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9

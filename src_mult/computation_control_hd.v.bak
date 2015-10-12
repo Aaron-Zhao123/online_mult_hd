@@ -1,0 +1,76 @@
+module computation_control_hd(
+cnt_master,
+clk,
+computation_cycle,
+write_enable,
+STATE,
+enable);
+
+parameter RAM_ADDR_WIDTH=7;
+// this block computes the cycles which are at computation at the moment
+// also provides enable for Multiplier to know when to fetch from outside input data and also controls writing to the CA_RAM
+
+//testing
+// finished
+
+input[RAM_ADDR_WIDTH+2-1:0] cnt_master;
+input clk;
+input enable;
+output[6:0] computation_cycle;// this would always be the address
+output write_enable;
+output[2:0] STATE;
+//handshake protocool
+input data_x_vld,data_y_vld;
+output data_x_rdy,data_y_rdy;
+
+
+wire[6:0] cycle_num;
+wire[1:0] remainder;
+reg[6:0] computation_cycle;
+
+parameter START=3'd0;
+parameter WRITE_IN=3'd1;
+parameter READ_OUT=3'd2;
+parameter END=3'd3;
+
+reg[2:0] STATE;
+reg write_enable;
+initial begin
+	computation_cycle=7'b0000000;
+	write_enable<=1'b1;
+	STATE<=ZERO_ROW;
+	stay<=1'b0;
+end
+
+assign cycle_num=cnt_master[8:2];
+assign remainder=cnt_master[1:0];
+
+
+
+
+always@(posedge clk) begin
+
+if(enable==1'b1) begin
+		case(STATE)
+			START : begin
+				if (hd_x == 1 && hd_y == 1) begin
+					STATE <= READ_PRE_LINES;
+					hd_x <= 0;
+					hd_y <= 0;
+				end
+				
+				if (data_x_rdy && data_x_vld) begin
+					hd_x <= 1; 
+				end
+				
+				if (data_y_rdy && data_y_vld) begin
+					hd_y <= 1;
+				end
+			end
+			WRITE_IN: begin
+				
+			end
+			
+		endcase	
+	end
+end

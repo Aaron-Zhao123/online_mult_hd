@@ -1,0 +1,9 @@
+vlog -work work -O0 {C:/Aaron_documents/Newton_method_hd/Online_adder_hd/src_adder/*.v}
+view wave
+vsim work.testbench
+add wave -position end  sim:/testbench/x_in
+add wave -position end  sim:/testbench/y_in
+
+add wave -position end  sim:/testbench/data_out
+
+run 1000ns

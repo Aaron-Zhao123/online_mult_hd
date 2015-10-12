@@ -1,0 +1,24 @@
+vlog -work work -O0 {C:/Aaron_documents/Newton_method_hd/Online_mult_hd/src_mult/*.v}
+view wave
+vsim work.testbench_mult_hd
+add wave -position end  sim:/testbench_mult_hd/x_value
+add wave -position end  sim:/testbench_mult_hd/y_value
+add wave -position end  sim:/testbench_mult_hd/p_value
+add wave -position end  sim:/testbench_mult_hd/data_x_vld
+add wave -position end  sim:/testbench_mult_hd/data_x_rdy
+add wave -position end  sim:/testbench_mult_hd/data_y_vld
+add wave -position end  sim:/testbench_mult_hd/data_y_rdy
+add wave -position end  sim:/testbench_mult_hd/data_out_vld
+add wave -position end  sim:/testbench_mult_hd/data_out_rdy
+
+add wave -position end  sim:/testbench_mult_hd/asyn_reset
+
+add wave -position end  sim:/testbench_mult_hd/test/CA_reg/x_plus
+add wave -position end  sim:/testbench_mult_hd/test/CA_reg/x_minus
+add wave -position end  sim:/testbench_mult_hd/test/CA_reg/y_plus
+add wave -position end  sim:/testbench_mult_hd/test/CA_reg/y_minus
+add wave -position end  sim:/testbench_mult_hd/test/clk
+add wave -position end  sim:/testbench_mult_hd/test/FSM/STATE
+
+
+run 1000ns
